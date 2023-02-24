@@ -2,7 +2,7 @@ FROM node:bullseye-slim
 
 WORKDIR /app/
 
-ENV OPENAI_API_KEY "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"
+ENV OPENAI_API_KEY "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"
 ENV PREFIX_ENABLED "true"
 
 COPY . .
