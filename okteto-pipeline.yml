@@ -1,0 +1,3 @@
+icon: https://user-images.githubusercontent.com/118915239/220538681-cb68a615-2f3e-4736-b4ff-c9f2d2d48b0f.png
+deploy:
+    - okteto deploy --build -f docker-compose.yml
