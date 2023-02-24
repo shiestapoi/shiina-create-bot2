@@ -1,7 +1,9 @@
-version: "3"
+version: "3.3"
+
 services:
-    whatsapp-chatgpt:
-        image: ghcr.io/askrella/whatsapp-chatgpt:master
-        environment:
-            OPENAI_API_KEY: "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"
-            PREFIX_ENABLED: "true"
+  app:
+    build: .
+    command: npm run start
+    restart: on-failure
+    ports:
+      - "80:80"
